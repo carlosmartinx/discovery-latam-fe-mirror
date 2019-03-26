@@ -5,6 +5,5 @@ phases:
       - echo Entering build phase...
       - npm install -g lerna
       - lerna boostrap
-      - yarn storybook
       - yarn transpile
       - yarn storybook 
