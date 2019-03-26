@@ -4,6 +4,9 @@
   "author": "DLA Platform Engineers",
   "license": "MIT",
   "private": true,
+  "workspaces": [
+    "modules/*"
+  ],
   "dependencies": {
     "@storybook/addon-actions": "^5.0.1",
     "@storybook/addon-links": "^5.0.1",
