@@ -4,6 +4,7 @@ phases:
     commands:
       - echo Entering build phase...
       - sudo npm install -g lerna
+      - yarn install
       - lerna bootstrap
       - yarn transpile
       - yarn storybook 
