@@ -11,4 +11,5 @@ phases:
       - npm install -g lerna
       - lerna bootstrap
       - yarn transpile
-      - yarn build-storybook 
+      - yarn build-storybook
+      - aws s3 sync storybook-static s3://www.tudiscoverylamirror.com --delete
